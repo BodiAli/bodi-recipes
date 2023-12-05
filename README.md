@@ -1,4 +1,4 @@
-# odin-recipes
+# bodi-recipes
 This is a project which applies what I learned into practice.
 I learned a lot of thing during this project:
 1: I learned to be faster
