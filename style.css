@@ -23,12 +23,12 @@
 
 /* tortilla recipe page */
 #tortilla {
-  background: linear-gradient(to bottom left ,#be0e0e, #5100ff, #ff0000);
+  background: linear-gradient(to bottom left, #be0e0e, #5100ff, #ff0000);
   text-align: center;
 }
 .tortilla-heading {
   font-size: 60px;
-  color: rgb(114, 5, 5)
+  color: rgb(114, 5, 5);
 }
 .tortilla-img {
   width: 400px;
@@ -46,7 +46,12 @@
   border: 3px solid black;
   border-radius: 10px;
   box-shadow: 0 0 20px yellow;
-  background: radial-gradient(circle, rgba(13,8,89,1) 3%, rgba(196,176,93,1) 57%, rgba(80,117,125,1) 100%);
+  background: radial-gradient(
+    circle,
+    rgba(13, 8, 89, 1) 3%,
+    rgba(196, 176, 93, 1) 57%,
+    rgba(80, 117, 125, 1) 100%
+  );
 }
 .p-description {
   font-size: 20px;
@@ -83,7 +88,12 @@
 /* basic burger recipe page */
 #burger {
   text-align: center;
-  background: linear-gradient(146deg, rgba(147,83,9,1) 28%, rgba(124,96,40,1) 56%, rgba(227,7,7,1) 100%);
+  background: linear-gradient(
+    146deg,
+    rgba(147, 83, 9, 1) 28%,
+    rgba(124, 96, 40, 1) 56%,
+    rgba(227, 7, 7, 1) 100%
+  );
 }
 .burger-heading {
   font-size: 45px;
@@ -117,4 +127,41 @@
 #burger p {
   width: 600px;
   margin: 0 auto 30px;
+}
+
+/* dumplings recipe page */
+#dumplings {
+  text-align: center;
+  background: linear-gradient(146deg, rgb(210, 199, 186) 28%, rgba(124, 96, 40, 1) 56%, rgb(41, 27, 9) 100%);
+  font-family: sans-serif;
+}
+#dumplings > h1 {
+  font-size: 45px;
+  text-shadow: 0 0 4px;
+}
+#dumplings > img {
+  border-radius: 5px;
+}
+#dumplings > .p-one {
+  margin: 0 auto;
+  width: 600px;
+}
+#dumplings p > a {
+  color: white;
+}
+#dumplings > table {
+  margin: 0 auto;
+}
+#dumplings > ul {
+  margin: 0 auto;
+  width: 300px;
+}
+#dumplings > ul > li {
+  text-align: left;
+}
+#dumplings > ol {
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 22px;
 }
